@@ -1,7 +1,7 @@
 {
-  "title": "Talk template",
-  "description": "My awesome talk description",
-  "author": "Tiago Garcia",
-  "email": "tgarcia@avenuecode.com",
-  "date": "Feb 11th, 2014"
+  "title": "Node JS Introduction",
+  "description": "Brief introduction on node",
+  "author": "Peter Thorun",
+  "email": "pthorun@avenuecode.com",
+  "date": "Jun 6th, 2014"
 }

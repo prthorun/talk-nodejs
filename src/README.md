@@ -6,13 +6,13 @@ You should just edit the source file at src/README.md - the one which stars with
 
 -->
 
-## @@title
+@@title
 
-<img src="img/cover.jpg" class="logo" />
+<img src="img/nodejs-logo.png" class="logo" />
 
 @@author @ [Avenue Code](http://www.avenuecode.com)
 
-*@@email*
+@@email<br><br>
 
 @@date
 
@@ -20,213 +20,225 @@ You should just edit the source file at src/README.md - the one which stars with
 
 ## Agenda
 
- - The template
-  - Installing
-  - Working
-  - Deploying
- - Your talk
-  - Organization
-  - Content requirements
-  - Communication requirements
-  - The DONT's
-  - Tips
-  - If you are recording
-
-----
-
-## Agenda
-
- - Contributing
- - Learn more
- - Conclusion
- - Assignment
+ - Node JS
+  - This is Node
+  - This is not Node
+  - Question about Javascript
+  - Blocking vs Non Blocking
+  - Node vs Apache
+  - Let's play!
+  - Challenge
+  - Try it yourself
 
 ---
 
 ## Prerequisites
 
-- Markdown
-- Reveal.js
-- Grunt
+- NONE
 
 ---
 
-## The template
+## This is Node
 
-1. The Avenue Code talk template is a responsive, web-based talk template.
-1. This template is based on [Reveal.JS](http://lab.hakim.se/reveal-js).
-1. All you need to do is to write your content in [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
-1. There are some [Grunt](http://gruntjs.com) jobs to automatize the build process.
-1. It has *automatic code highlighting*, guessing the programming language you used.
-1. Once it is described in *README.md*, the talk contents will also be available as the repository description which is a common format for tutorials.
-
-----
-
-## Setting up your repo
-
-1. Sign in on GitHub
-1. Fork the repository <https://github.com/acbr/talk-template>
-1. Rename it to match your talk name (ex: *talk-design-patterns*)
-1. Clone this repository
-1. Navigate to its folder on the terminal
-
-----
-
-## Building and running
-
-1. Install [Node.js](http://nodejs.org/)
-1. Install [Grunt](http://gruntjs.com/getting-started#installing-the-cli)
-1. On the repo folder, install the npm dependencies
-```sh
-$ npm install
-```
-1. Build it, serve it and monitor source files for changes
-```sh
-$ grunt
-```
-1. Open <http://localhost:8000> to view your talk
-
-----
-
-## Working
-
-1. Open up *config.json* and fill your talk data such as title, author, email, date and description.
-  - That is the *ONLY FILE* you should edit on the project root!
-1. Any further change you will do is inside the *src* folder, such as:
-  - *src/README.md* to write your talk content in *Markdown*
-  - *src/index.html* to modify the HTML
-1. Grunt will generate files on the project root as you change *src*.
-1. In order to separate slides horizontally, use 3 dashes (---).
-1. In order to separate slides vertically, use 4 dashes (----).
-1. In order to *call out attention*, put an asterisk around your text:
-```
-In order to *call out attention*, ...
-```
-
-----
-
-## Deploying
-
-1. Make sure your build is not breaking.
-  - You should see *Done, without errors.* in the terminal.
-1. *git add*, *git commit* and *git push* to *gh-pages* branch.
-1. You should see your talk in an address like:
-  - http://*your-github-username*.github.io/*your-repo-name*
-  - Ex: <http://acbr.github.io/talk-template>
+- *Node JS* is a technology to easily create network applications<br><br>
+- A very common way to build web servers<br><br>
+- Runs *Javascript* on server side<br><br>
+  - Really?<br><br>
+- Node JS is also *multiplatform*
 
 ---
 
-## Your talk
+## This is Node
 
- - Should last no more than 50 minutes, leave up to 10 minutes for questions.
- - Should not be too deep neither too superficial.
- - Give at least 3 reference links to be followed for further studies.
- - Give a challenge that would be solved using ideas that were covered on the talk.
- - It is ok to go a little bit far (forcing the attendee to do some research), but that should be optional.
-
-----
-
-## Organization
-
- - 1st slide: the cover, featuring your talk name, your name, the lecture date and AC logo.
- - 2nd slide: the agenda, in topics.
- - 3nd slide: the prerequisites of your talk.
- - From 4th slide on: your content
-  - When content from the same topic doesn't fit on a slide -> grow it *VERTICALLY* by adding a slide below (----).
-  - When you finish a topic and will start a different one -> grow it *HORIZONTALLY* by adding a slide to the right (---).
- - The 3 last slides: Conclusion, Learn more (with the reference links) and Challenge.
-
-----
-
-## Content requirements
-
-1. *BE CONSISTENT*. Master the subject and do not contradict yourself.
-1. *CATCH THE ATTENTION*. Let the audience know WHY they cannot live one more day without this technology.
-1. *BALANCE THEORY AND PRACTICE*. Your target is keeping the subject interesting for everybody.
-1. *BE CONCISE*. Don't overexplain in such way you could cause confusion to your attendees.
-1. *KEEP THE FOCUS*. Off-topic discussions are ok, but only if it doesn't disturb the natural flow of your content.
-1. *BE PREPARED*. If you are going to use examples or live coding, make sure you have them all prepared beforehand.
-
-----
-
-## Communication requirements
-
-1. *COMMUNICATE WELL*. Be sharp on English, no bad words or slangs and use the best words for the audience.
-1. *BE A PRO*. Please watch some good screencasts in order to learn how to use your voice and conduct the talk.
-1. *BE POLITE*. Be respectful and avoid heavy criticism.
-1. *BE PROFESSIONAL*. Use jokes and humor with parsimony.
-1. *TRAIN* your full talk at least once before your talk.
-
-----
-
-## The DONT's
-
-1. *DO NEVER SHOW PRIVATE CODE FROM THE CLIENT*. This is CRITICAL and can cause serious problems.
-1. *DON'T BE ARROGANT*. Be humble and don't focus the talk on yourself.
-1. *DON'T GENERALIZE*, specially stuff that you are not sure about.
-1. *DON'T MAKE UP DATA*. Base yourself on trustable references.
-1. *DON'T TALK LIKE A ROBOT*. Just be yourself, natural. Relax :)
-
-----
-
-## Tips
-
- - *ENJOY* your experience by creating the talk, because you will surely learn MUCH MORE than your attendees.
- - *BRING WATER* to drink while you present. You will certainly need it!
- - *BE OPEN* to receive questions and even criticism. You will learn a lot from them.
- - *ALWAYS* be polite when talking to your audience. This will always open doors for you.
- - People might come to you with questions and more complex cases after your talk. Consider it as a gift, it means you represent something good for them!
-
-----
-
-## If you are recording
-
-- Make sure you use a professional microphone when available.
-- Don't do *drastic transitions* on your screen, as the recorded amount of frames per second is low.
-- Ask atendees to only make questions on the end - so future watchers will just get the real content without interruption.
-- Introduce yourself: "Hello everybody, my name is xxxx, I work for Avenue Code and today's talk will be about yyyyy". Finish it like: "That's it, thanks for watching.".
-- Problems with recording/connection? Always restart from the beginning of the slide. Don't try to restart from where it fails, its impossible to do a clean cut on the video after that.
+- It's also *multiprotocol*: 
+  - HTTP
+  - HTTPS 
+  - FTP
+  - SSH 
+  - DNS
+  - TCP
+  - UDP 
+  - WebSockets
+  - [Choose your flavor!](http://nodejs.org/download/)
 
 ---
 
-## Contributing
+## This is Node
 
-Should you wish to contribute, please be welcome to!
-
-1. Fork the repository <https://github.com/acbr/talk-template>
-1. Create a feature branch for your contribution
-```sh
-git checkout -b my-new-feature
-```
-1. Commit your changes
-```sh
-git commit -am 'Add some feature'
-```
-1. Push to the branch
-```sh
-git push origin my-new-feature
-```
-1. Create a Pull Request
+- It is *low level*<br><br>
+  - You need to code your *own server* on top of Node<br><br>
+  - Grants *flexibility*<br><br>
+  - Treat [requests]() and build [responses]() exactly the way you want<br><br>
+- It is *event based*
 
 ---
 
-## Conclusion
+## This is Node
 
-- This talk template rocks!
-- Your life should be easier now.
+- What could you *build*?<br><br>
+  - WebSocket Server (chat)<br><br>
+  - File Upload Application<br><br>
+  - Ad Server<br><br>
+  - Any sort of network server (even *LAN*)<br><br>
+- [C10k](http://en.wikipedia.org/wiki/C10k_problem) problem
 
 ---
 
-## Learn more
+## This is not Node
 
-1. [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
-1. [Reveal.JS](https://github.com/hakimel/reveal.js)
-1. [Grunt](http://gruntjs.com)
+- A *Web framework*<br><br>
+  - It is not going to replace *Rails* or *Django*<br><br>
+- For beginners<br><br>
+- Multi-threaded<br><br>
+  - Write your server as a single-threaded application
+
+---
+
+## Question about Javascript
+
+- Isn't *Javascript* slow? Why does it work?<br><br>
+  - *Javascript* is considered slow on client side<br><br>
+  - *Node* is built on top of [V8 Javascript Runtime]()<br><br>
+  - Same runtime used on [Google Chrome]() browser<br><br>
+  - Mostly coded on *C* >> Super Fast
+---
+
+## Blocking vs Non Blocking
+
+*Blocking*
+
+```sh
+text = read(huge_file.txt);
+print(text);
+do_something_else();
+```
+---
+
+## Blocking vs Non Blocking
+
+[Non Blocking]()
+
+```sh
+text = read(huge_file.txt);
+  print_when_its_ready(text);
+do_something_else();
+```
+---
+
+## Blocking vs Non Blocking
+
+Real Node Code
+
+```sh
+var callback = function(err, contents) {
+  console.log(contents);
+}
+fs.readfile('/etc/hosts', callback);
+```
+
+[Non Blocking]()
+
+---
+
+## Blocking vs Non Blocking
+
+"Javascript has certain characteristics that make it very different than other dynamic languages, namely that it has no concept of threads. Its model of concurrency is completely based around events." - *Ryan Dahl*
+
+---
+
+## Node vs Apache
+
+- Node Advantage: *Scalability*<br><br>
+- *Apache*
+  - Multi-threaded, Blocking architecture
+  - Each new connection allocates more than 1MB of extra memory
+  - A few kbps connection (typical on mobile) would increase your wait time due to blockage
+  - Servers are now supposed to hold thousands of connections
+  - Too bad *Apache*...&nbsp;&nbsp; ;(
+
+---
+
+## Lets play!
+
+```sh
+setTimeout(function() {
+  console.log("world");  
+}, 2000)
+console.log("hello");
+```
+
+---
+
+## Lets play!
+
+- *Node* is very good at being idle<br><br>
+  - Doesn't sleep or spin in a busy loop<br><br>
+  - [CPU]() goes to 0<br><br>
+  - [Operational System]() unschedules it<br><br>
+  - Just wait for an *event* to be fired
+
+---
+
+## Lets play!
+
+```sh
+setInterval(function() {
+  console.log("world");  
+}, 2000)
+console.log("hello");
+```
+
+---
+
+## Lets play!
+
+```sh
+var http = require('http');
+var server = http.createServer(function(request, response) {
+  response.writeHead(200);
+  response.write("Hello World");
+  response.end();
+});
+server.listen(8080);
+console.log("Listening on port 8080...");
+```
+
+---
+
+## Lets play!
+
+```sh
+var http = require('http');
+var server = http.createServer(function(request, response) {
+  response.writeHead(200);
+  console.log("starting");
+  
+  setTimeout(function() {
+  console.log("timeout");
+  response.end(); 
+  }, 5000)
+
+});
+server.listen(8080);
+console.log("Listening on port 8080...");
+
+```
+
+```sh
+ab -n 10 -c 10 http://127.0.0.1:8080/
+```
 
 ---
 
 ## Challenge
 
-1. Make your awesome talk based on this template.
-1. Push it to a gh-pages branch on your GitHub account.
-1. Share the URL with the world!
+- Write a simple chat application
+  - Using Node
+  - Using WebSockets
+
+---
+
+## Try it yourself
+
+- *Node* is [awesome!]()
+- Thank you
