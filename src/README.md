@@ -100,7 +100,7 @@ You should just edit the source file at src/README.md - the one which stars with
   - *Javascript* is considered slow on client side<br><br>
   - *Node* is built on top of [V8 Javascript Runtime]()<br><br>
   - Same runtime used on [Google Chrome]() browser<br><br>
-  - Mostly coded on *C* >> Super Fast
+  - Mostly coded on *C* - Super Fast
 
 ---
 

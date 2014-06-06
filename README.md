@@ -46,7 +46,7 @@ Jun 6th, 2014
   - Really?<br><br>
 - Node JS is also *multiplatform*
 
-----
+---
 
 ## This is Node
 
@@ -61,7 +61,7 @@ Jun 6th, 2014
   - WebSockets
   - [Choose your flavor!](http://nodejs.org/download/)
 
-----
+---
 
 ## This is Node
 
@@ -100,7 +100,8 @@ Jun 6th, 2014
   - *Javascript* is considered slow on client side<br><br>
   - *Node* is built on top of [V8 Javascript Runtime]()<br><br>
   - Same runtime used on [Google Chrome]() browser<br><br>
-  - Mostly coded on *C* >> Super Fast
+  - Mostly coded on *C* - Super Fast
+
 ---
 
 ## Blocking vs Non Blocking
@@ -112,6 +113,7 @@ text = read(huge_file.txt);
 print(text);
 do_something_else();
 ```
+
 ---
 
 ## Blocking vs Non Blocking
@@ -123,6 +125,7 @@ text = read(huge_file.txt);
   print_when_its_ready(text);
 do_something_else();
 ```
+
 ---
 
 ## Blocking vs Non Blocking
