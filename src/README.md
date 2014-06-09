@@ -28,13 +28,12 @@ You should just edit the source file at src/README.md - the one which stars with
   - Node vs Apache
   - Let's play!
   - Challenge
-  - Try it yourself
 
 ---
 
 ## Prerequisites
 
-- NONE
+- Javascript
 
 ---
 
@@ -161,7 +160,19 @@ fs.readfile('/etc/hosts', callback);
 
 ---
 
-## Lets play!
+## Let's play!
+
+- Node can be used to build *any kind of aplication* using JS, not just webservers<br><br>
+- In fact, NVIDIA is using Node to control GPU processing: [Node Cuda](https://github.com/kashif/node-cuda)<br><br>
+- So let's begin with basic JS code
+
+---
+
+## Let's play!
+
+```sh
+console.log("hello");
+```
 
 ```sh
 setTimeout(function() {
@@ -172,7 +183,7 @@ console.log("hello");
 
 ---
 
-## Lets play!
+## Let's play
 
 - *Node* is very good at being idle<br><br>
   - Doesn't sleep or spin in a busy loop<br><br>
@@ -182,7 +193,7 @@ console.log("hello");
 
 ---
 
-## Lets play!
+## Let's play!
 
 ```sh
 setInterval(function() {
@@ -193,7 +204,7 @@ console.log("hello");
 
 ---
 
-## Lets play!
+## Let's play!
 
 ```sh
 var http = require('http');
@@ -208,7 +219,7 @@ console.log("Listening on port 8080...");
 
 ---
 
-## Lets play!
+## Let's play!
 
 ```sh
 var http = require('http');
@@ -235,13 +246,13 @@ ab -n 10 -c 10 http://127.0.0.1:8080/
 
 ## Challenge
 
-- Write a simple chat application
-  - Using Node
-  - Using WebSockets
+- Write a simple chat application<br><br>
+  - Using *Node*<br><br>
+  - Using *WebSockets*<br><br>
+  - [Tutorial](http://codular.com/node-web-sockets)
 
 ---
 
-## Try it yourself
+## The End
 
-- *Node* is [awesome!]()
-- Thank you
+Thank you!
