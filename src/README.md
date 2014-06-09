@@ -22,7 +22,6 @@ You should just edit the source file at src/README.md - the one which stars with
 
  - Node JS
   - This is Node
-  - This is not Node
   - Question about Javascript
   - Blocking vs Non Blocking
   - Node vs Apache
@@ -83,19 +82,19 @@ You should just edit the source file at src/README.md - the one which stars with
 
 ---
 
-## This is not Node
+## This is Node
 
-- A *Web framework*<br><br>
+- Not a *Web framework*<br><br>
   - It is not going to replace *Rails* or *Django*<br><br>
-- For beginners<br><br>
-- Multi-threaded<br><br>
+- Not recommended for beginners<br><br>
+- Not Multi-threaded<br><br>
   - Write your server as a single-threaded application
 
 ---
 
 ## Question about Javascript
 
-- Isn't *Javascript* slow? Why does it work?<br><br>
+- Isn't *Javascript* considered slow?<br><br>
   - *Javascript* is considered slow on client side<br><br>
   - *Node* is built on top of [V8 Javascript Runtime]()<br><br>
   - Same runtime used on [Google Chrome]() browser<br><br>
@@ -162,8 +161,8 @@ fs.readfile('/etc/hosts', callback);
 
 ## Let's play!
 
-- Node can be used to build *any kind of aplication* using JS, not just webservers<br><br>
-- In fact, NVIDIA is using Node to control GPU processing: [Node Cuda](https://github.com/kashif/node-cuda)<br><br>
+- Node can be used to build *any kind of application* using JS, not just webservers<br><br>
+- In fact, NVIDIA is using Node to control GPU processing: [Node Cuda](https://github.com/kashif/node-cuda) Project<br><br>
 - So let's begin with basic JS code
 
 ---
@@ -188,7 +187,7 @@ console.log("hello");
 - *Node* is very good at being idle<br><br>
   - Doesn't sleep or spin in a busy loop<br><br>
   - [CPU]() goes to 0<br><br>
-  - [Operational System]() unschedules it<br><br>
+  - [OS]() unschedules it<br><br>
   - Just wait for an *event* to be fired
 
 ---
@@ -243,6 +242,17 @@ ab -n 10 -c 10 http://127.0.0.1:8080/
 ```
 
 ---
+
+## Let's play!
+
+- Curiosity<br><br>
+- Full [Node vs Apache Benchmarks](http://zgadzaj.com/benchmarking-nodejs-basic-performance-tests-against-apache-php)<br><br>
+- *Node* only takes 10-20% of Apache's time to run the same application<br><br>
+- *Node* is the future!
+
+
+---
+
 
 ## Challenge
 
